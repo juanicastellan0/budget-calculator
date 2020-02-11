@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:300,900");
+.top-bar {
+  display: flex;
+  width: 100%;
+  height: 68px;
+  background: linear-gradient(75deg, #c6ffdf, #c5d2ff);
+  justify-content: center;
+  align-items: center; }
+  .top-bar h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #171c2d; }
+
+.total {
+  display: flex;
+  height: 250px;
+  background: #171c2d;
+  justify-content: center;
+  align-items: center; }
+  .total h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 58px;
+    color: white; }
+    .total h2.green {
+      color: #0affab; }
+    .total h2.red {
+      color: #ff551a; }
+
+.add-item-section {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .add-item-section .add-item-container {
+    width: 680px; }
+
+/*# sourceMappingURL=main-page.component.css.map */
